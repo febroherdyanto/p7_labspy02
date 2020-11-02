@@ -13,3 +13,4 @@ elif (xangka1 == xangka2) and (xangka1 == xangka3) and (xangka2 == xangka3):
     print("Bilangan yang dimasukkan sama besar")
 else:
     print(f"Bilangan ketiga ({xangka3}) lebih besar dari Bilangan pertama dan kedua")
+
