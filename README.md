@@ -126,8 +126,7 @@ Untul lebih jelasnya bisa membaca *Flowchart* yang telah saya buat (link diatas)
 <hr>
 Demikian Tugas Pertemuan 7 - Praktikum 2 telah selesai. Terima kasih.<br>
 
-===================<br>
-= FEBRO HERDYANTO =<br>
-=    312010043    =<br>
-=    TI.20.B.1    =<br>
-===================
+
+NAMA : FEBRO HERDYANTO =<br>
+NIM : 312010043<br>
+KELAS : TI.20.B.1<br>
