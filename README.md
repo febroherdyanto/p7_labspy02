@@ -64,7 +64,7 @@ Apabila jika pengecekan bersifat benar (Angka pertama lebih besar dari Angka ked
 print(f"Bilangan Pertama ({xangka1}) lebih besar dari Bilangan kedua dan ketiga")
 ```
 
-<br><br>dan akan memumculkan hasil seperti berikut : **Bilangan Pertama ({xangka1}) lebih besar dari Bilangan kedua dan ketiga**<br>
+dan akan memumculkan hasil seperti berikut : **Bilangan Pertama ({xangka1}) lebih besar dari Bilangan kedua dan ketiga**<br>
 <br>
 
 * Jika dalam pengecekan ada yang salah atau Nilai pertama tidak lebih besar dari Nilai kedua dan ketiga, maka system melakukan pengecekan lanjutan ke fungsi **elif .........** yaitu dengan syntax atau source code berikut : <br>
