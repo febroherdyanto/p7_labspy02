@@ -47,16 +47,14 @@ print("Masukkan Pilihan Angka ke-3 : ")
 xangka3 = int(input())
 ```
 <br>
-* Langkah kedua yaitu saatnya menentukan logika untuk menemukan bilangan terbesar dari angka yang saya inputkan diatas.<br>
-Dengan menjelaskan fungsi-fungsi pada source code yang digunakan diatas :<br>
 
+* Sesuai *flowchart* yang saya buat, client/user diminta untuk memasukan nilai inputan berupa angka dan akan disimpan kedalam variable xangka1, xangka2, dan xangka3. <br> 
+Setelah proses input nilai selesai maka saya akan membuat pemilihan angka terbesar berdasarkan kondisi.<br>
+<br> Pada kondisi pertama saya akan melakukan pengecekan terhadap Angka pertama (xangka1) terlebih dahulu, yaitu dengan syntax/source code seperti dibawah ini :<br>
 ``` python
 if (xangka1 > xangka2) and (xangka1 > xangka3):
 ```
-<br>
-Syntax diatas berfungsi untuk melakukan pengecekan inputan pada **Angka ke-1**, yaitu dengan penggunaan **if**. <br>
-Pada syntax diatas melakukan pengecekan dengan 2 perbandingan angka terbesar yaitu *Apakah Angka ke-1 lebih besar dari Angka ke-2* dan *Apakah Angka ke-1 lebih besar dari Angka ke-3*. Dan mmenggunakan perintah **AND**<br>
-
-* Setelah melakukan pengecekan apakah Angka-1 sebegai bilangan terbesar atau tidak, kita akan menampi
-
+Pada syntax diatas dijelaskan bahwa terdapat dua pengecekan, yaitu :<br>
+   1. *(xangka1 > xangka2)* -> Apakah Angka pertama lebih besar dari Angka kedua **dan**
+   2. *(xangka1 > xangka3)* -> Apakah Angka pertama lebih besar dari Angka ketiga.
 
