@@ -66,6 +66,7 @@ dan akan memumculkan hasil seperti berikut : **Bilangan Pertama ({xangka1}) lebi
 <br>
 
 * Jika dalam pengecekan ada yang salah atau Nilai pertama tidak lebih besar dari Nilai kedua dan ketiga, maka system melakukan pengecekan lanjutan ke fungsi **elif .........** yaitu dengan syntax atau source code berikut : <br>
+
 ``` python
 elif (xangka2 > xangka1) and (xangka2 > xangka3):
 ```
@@ -74,6 +75,7 @@ Pada syntax diatas dijelaskan bahwa terdapat dua pengecekan pada angka kedua, ya
    2. *(xangka2 > xangka3)* -> Apakah angka kedua lebih besar dari angka ketiga.
 <br>
 Apabila jika dalam pegecekan hasil bernilai benar (Angka kedua lebih besar dari angka pertama dan angka ketiga), maka system akan menampilkan output berupa :<br>
+
 ``` python
 print(f"Bilangan kedua ({xangka2}) lebih besar dari Bilangan pertama dan ketiga")
 ```
