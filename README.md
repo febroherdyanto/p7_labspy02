@@ -112,14 +112,22 @@ Pada kasus ini program ini, saya melakukan pengecekan kondisi seperti berikut :
 > Pengecekan pertama pada **xangka1** apakah lebih besar, jika tidak maka melakukan pengecekan pada **xangka2** apakah lebih besar, jika masih belum menemukan hasil atau tidak lebih besar, dilakukan pengecekan berupa semua bilangan sama besar. Nah untuk lagkah terakhir maka memampilkan hasil bahwa bilangan ketiga pasti bilangan terbesar.
 <br>
 
-untuk menampilkan hasil akhir, maka hanya dengan nengetikkan syntax sebagai berikut :<br>
+Untuk menampilkan hasil akhir, maka hanya dengan nengetikkan syntax sebagai berikut :<br>
 
 ``` python
 else:
     print(f"Bilangan ketiga ({xangka3}) lebih besar dari Bilangan pertama dan kedua")
 ```
 
-pada syntax diatas akan menampilkan hasil berupa : **Bilangan ketiga ({xangka3}) lebih besar dari Bilangan pertama dan kedua**<br>
+Pada syntax diatas akan menampilkan hasil berupa : **Bilangan ketiga ({xangka3}) lebih besar dari Bilangan pertama dan kedua**<br>
 <hr>
 Demikianlah langkah-langkah untuk melakukan pengecekan pada 3 inputan dengan bahasa pemrograman python.<br>
 Untul lebih jelasnya bisa membaca *Flowchart* yang telah saya buat (link diatas) 
+<hr>
+Demikian Tugas Pertemuan 7 - Praktikum 2 telah selesai. Terima kasih.<br>
+
+===================<br>
+= FEBRO HERDYANTO =<br>
+=    312010043    =<br>
+=    TI.20.B.1    =<br>
+===================
