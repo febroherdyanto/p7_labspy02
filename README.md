@@ -87,7 +87,39 @@ dan akan menampilkan hasil seperti : **Bilangan kedua ({xangka2}) lebih besar da
 * Seperti langkah diatas, jika dalam pengecekan bersifat salah atau angka kedua lebih kecil dari angka pertama dan ketiga maka system akan melanjutkan ke pengecekan selanjutnya.<br>
 Nah untuk pengecekan selanjutnya ini saya akan melakukan pengecekan berupa *Apakah Nilai yang inputnya nilainya sama besar?*.<br>
 Untuk membuat pengecekan kondisi tersebut, dengan syntax/source code berikut :<br>
+
 ``` python
 elif (xangka1 == xangka2) and (xangka1 == xangka3) and (xangka2 == xangka3):
 ```
 
+Pada syntax diatas, dijelaskan terdapat tiga pengecekan pada semua variable, yaitu :<br>
+   1. *(xangka1 == xangka2)* -> Apakah angka pertama sama besar dengan angka kedua **dan**
+   2. *(xangka1 == xangka3)* -> Apakah angka pertama sama besar dengan angka ketiga **dan**
+   3. *(xangka2 == xangka3)* -> Apakah angka kedua sama besar dengan angka ketiga.
+<br>
+Apabila setelah dilakukan pengecekan dan ternyata semua angka sama besar, maka system akan menampilkan output dengan perintah berikut :<br>
+
+``` python
+print("Bilangan yang dimasukkan sama besar")
+```
+
+Dari syntax diatas akan memunculkan hasil berupa : **Bilangan yang dimasukkan sama besar**<br>
+
+* Langkah terakhir adalah kita system sudah memproses untuk meakukan pengecekan pada If, Elif maka system harus menentukan pilihan terakhir dengan menggunakan fungsi **else**. <br>
+Fungsi else menurut saya adalah kondisi dimana sistem telah melakukan pengecekan pada fungsi if dan elif tetapi tidak ada hasil yang diinginkan, maka menentukan pilihan akhir, yaitu dengan hanya menampilkan output yang diinginkan.<br>
+Pada kasus ini program ini, saya melakukan pengecekan kondisi seperti berikut :
+
+> Pengecekan pertama pada **xangka1** apakah lebih besar, jika tidak maka melakukan pengecekan pada **xangka2** apakah lebih besar, jika masih belum menemukan hasil atau tidak lebih besar, dilakukan pengecekan berupa semua bilangan sama besar. Nah untuk lagkah terakhir maka memampilkan hasil bahwa bilangan ketiga pasti bilangan terbesar.
+<br>
+
+untuk menampilkan hasil akhir, maka hanya dengan nengetikkan syntax sebagai berikut :<br>
+
+``` python
+else:
+    print(f"Bilangan ketiga ({xangka3}) lebih besar dari Bilangan pertama dan kedua")
+```
+
+pada syntax diatas akan menampilkan hasil berupa : **Bilangan ketiga ({xangka3}) lebih besar dari Bilangan pertama dan kedua**<br>
+<hr>
+Demikianlah langkah-langkah untuk melakukan pengecekan pada 3 inputan dengan bahasa pemrograman python.<br>
+Untul lebih jelasnya bisa membaca *Flowchart* yang telah saya buat (link diatas) 
