@@ -120,6 +120,22 @@ else:
 ```
 
 Pada syntax diatas akan menampilkan hasil berupa : **Bilangan ketiga ({xangka3}) lebih besar dari Bilangan pertama dan kedua**<br>
+<br>
+
+Berikut hasil *Screenshot* dari Program yang saya buat :<br>
+1. Saya akan mencoba melakukan inputan dengan angka terbesar ada di inputan pertama<br>
+   ![Program Angka Terbesar 1](pict/angka1.PNG)
+   <br>
+2. Saya akan mencoba melakukan inputan dengan angka terbesar ada di inputan kedua<br>
+   ![Program Angka Terbesar 2](pict/angka2.PNG)
+   <br>
+3. Saya akan mencoba melakukan inputan dengan angka sama besar<br>
+   ![Program Inputan sama besar](pict/samabesar.PNG)
+   <br>
+4. Saya akan mencoba melakukan inputan dengan angka terbesar ada di inputan ketiga<br>
+   ![Program Inputan Terbesar 3](pict/angka3.PNG)
+   <br>
+
 <hr>
 Demikianlah langkah-langkah untuk melakukan pengecekan pada 3 inputan dengan bahasa pemrograman python.<br>
 Untul lebih jelasnya bisa membaca *Flowchart* yang telah saya buat (link diatas) 
