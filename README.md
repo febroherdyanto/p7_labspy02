@@ -54,7 +54,36 @@ Setelah proses input nilai selesai maka saya akan membuat pemilihan angka terbes
 ``` python
 if (xangka1 > xangka2) and (xangka1 > xangka3):
 ```
-Pada syntax diatas dijelaskan bahwa terdapat dua pengecekan, yaitu :<br>
+Pada syntax diatas dijelaskan bahwa terdapat dua pengecekan pada angka pertama, yaitu :<br>
    1. *(xangka1 > xangka2)* -> Apakah Angka pertama lebih besar dari Angka kedua **dan**
    2. *(xangka1 > xangka3)* -> Apakah Angka pertama lebih besar dari Angka ketiga.
+<br>
+Apabila jika pengecekan bersifat benar (Angka pertama lebih besar dari Angka kedua dan ketiga), maka system akan menampilkan output berupa :<br>
+``` python
+print(f"Bilangan Pertama ({xangka1}) lebih besar dari Bilangan kedua dan ketiga")
+```
+dan akan memumculkan hasil seperti berikut : **Bilangan Pertama ({xangka1}) lebih besar dari Bilangan kedua dan ketiga**<br>
+<br>
+
+* Jika dalam pengecekan ada yang salah atau Nilai pertama tidak lebih besar dari Nilai kedua dan ketiga, maka system melakukan pengecekan lanjutan ke fungsi **elif .........** yaitu dengan syntax atau source code berikut : <br>
+``` python
+elif (xangka2 > xangka1) and (xangka2 > xangka3):
+```
+Pada syntax diatas dijelaskan bahwa terdapat dua pengecekan pada angka kedua, yaitu : <br>
+   1. *(xangka2 > xangka1)* -> Apakah angka kedua lebih besar dari angka pertama **dan**
+   2. *(xangka2 > xangka3)* -> Apakah angka kedua lebih besar dari angka ketiga.
+<br>
+Apabila jika dalam pegecekan hasil bernilai benar (Angka kedua lebih besar dari angka pertama dan angka ketiga), maka system akan menampilkan output berupa :<br>
+``` python
+print(f"Bilangan kedua ({xangka2}) lebih besar dari Bilangan pertama dan ketiga")
+```
+dan akan menampilkan hasil seperti : **Bilangan kedua ({xangka2}) lebih besar dari Bilangan pertama dan ketiga**<br>
+<br>
+
+* Seperti langkah diatas, jika dalam pengecekan bersifat salah atau angka kedua lebih kecil dari angka pertama dan ketiga maka system akan melanjutkan ke pengecekan selanjutnya.<br>
+Nah untuk pengecekan selanjutnya ini saya akan melakukan pengecekan berupa *Apakah Nilai yang inputnya nilainya sama besar?*.<br>
+Untuk membuat pengecekan kondisi tersebut, dengan syntax/source code berikut :<br>
+``` python
+elif (xangka1 == xangka2) and (xangka1 == xangka3) and (xangka2 == xangka3):
+```
 
